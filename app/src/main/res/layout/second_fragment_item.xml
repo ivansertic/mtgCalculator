@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+     <RelativeLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/firstPlayerCounters"
+        android:layout_width="wrap_content"
+        android:layout_height="64px"
+        android:text="Creature Name"
+        android:textSize="@dimen/counterSize"/>
+     </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/coutersLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:id="@+id/tvMonsterCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="25dp"/>
+        <ImageButton
+            android:id="@+id/ibAddCounters"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:layout_centerInParent="true"
+            android:src="@drawable/plus"
+            android:layout_toRightOf="@+id/tvMonsterCounter"
+            android:layout_marginLeft="@dimen/leftMarginRv"/>
+        <ImageButton
+            android:id="@+id/ibremoveCounter"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:layout_toRightOf="@id/ibAddCounters"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/leftMarginRv"
+            android:layout_marginRight="@dimen/rightMarginRv"
+            android:src="@drawable/minus"/>
+        <ImageButton
+            android:id="@+id/ibRemoveItem"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:layout_toRightOf="@id/ibremoveCounter"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/leftMarginRv"
+            android:layout_marginRight="@dimen/rightMarginRv"
+            android:src="@drawable/erase_button"/>
+    </RelativeLayout>
+
+</RelativeLayout>

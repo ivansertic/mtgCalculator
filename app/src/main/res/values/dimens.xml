@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lifeSize">30dp</dimen>
+    <dimen name="lifesize">40dp</dimen>
+    <dimen name="teWidth">300dp</dimen>
+    <dimen name="counterSize">20dp</dimen>
+    <dimen name="monsterCounter">15dp</dimen>
+    <dimen name="leftMarginRv">10dp</dimen>
+    <dimen name="rightMarginRv">10dp</dimen>
+    <dimen name="buttonSize">25dp</dimen>
+</resources>
